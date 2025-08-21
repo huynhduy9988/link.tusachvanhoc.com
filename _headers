@@ -1,2 +1,2 @@
 /.well-known/apple-app-site-association
-  X-Content-Type-Options: nosniff
+  Content-Type: application/json
