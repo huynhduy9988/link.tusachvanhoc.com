@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ddpanda.mango",
+      "sha256_cert_fingerprints": [
+        "1F:6B:59:AF:39:B0:F7:8A:DC:95:26:41:CC:35:AC:C0:36:C2:0A:AE:94:9C:E3:D5:22:DC:53:DC:54:DF:C8:46",
+        "52:FE:5A:C9:4C:70:7F:30:33:BC:19:78:52:62:7F:C7:5F:75:51:FE:B9:74:27:EB:1E:22:86:20:82:79:9D:98"
+      ]
+    }
+  }
+]
