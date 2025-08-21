@@ -29,13 +29,17 @@
     if (isAndroid) {
       window.location.href = androidIntent;
     } else if (isIOS) {
+      window.location.href = iosCustomScheme;
+
+      // Logic cũ - START
       // Ưu tiên dùng Universal Link, nếu app bạn đã đăng ký domain trong apple-app-site-association
       //window.location.href = iosUniversalLink;
 
       // Nếu chưa hỗ trợ universal link thì sau 1.5s thử mở custom scheme
-      setTimeout(() => {
-        window.location.href = iosCustomScheme;
-      }, 1500);
+      //setTimeout(() => {
+      //  window.location.href = iosCustomScheme;
+      //}, 1500);
+      // Logic cũ - END
     } else {
       // Desktop hoặc trình duyệt không hỗ trợ
       window.location.href = fallbackUrl;
